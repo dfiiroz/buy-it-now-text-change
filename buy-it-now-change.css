@@ -1,0 +1,14 @@
+button.shopify-payment-button__button {
+font-size: 0px !important;
+}
+button.shopify-payment-button__button:before {
+  content: "ANY TEXT(PURCHASE)";
+  line-height: 1.42;
+  text-decoration: none;
+  text-align: center;
+  white-space: normal;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
